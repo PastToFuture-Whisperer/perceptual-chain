@@ -140,7 +140,15 @@ This program is an open-source byproduct of the advanced profile optimization re
 
 ## Ecosystem
 
-*Additional core tools and infrastructure optimization repositories within the PastToFuture-Whisperer ecosystem will be linked here upon release.*
+Below are related open-source tools and high-performance infrastructure components within the PastToFuture-Whisperer ecosystem:
+
+* **[xprof-cubism-reducer](https://github.com/PastToFuture-Whisperer/xprof-cubism-reducer)**  
+  *The First Zero-Dependency In-Place Trace Reducer for TensorBoard / XProf.*  
+  Applies spatial downsampling and continuous grid aggregation to ultra-dense trace logs, achieving 80–95% file size reduction and resolving WebGL/V8 browser rendering freezes on multi-gigabyte profiling workloads.
+
+* **[xprof-jitter-interceptor](https://github.com/PastToFuture-Whisperer/xprof-jitter-interceptor)**  
+  *Dual-Knob Interception Architecture for Eliminating Re-compilation & Physical Jitter in JAX/XLA.*  
+  Serves as a conceptual proof-of-concept (PoC) reference implementation designed for enterprise technical collaboration. Demonstrates theoretical frameworks and minimal executable sandboxes to stabilize hardware execution latency in high-throughput pipelines.
 
 ---
 

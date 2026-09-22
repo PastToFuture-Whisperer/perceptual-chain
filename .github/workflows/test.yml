@@ -30,4 +30,4 @@ jobs:
       run: |
         python -m pytest
       env:
-        PYTHONPATH: src
+        PYTHONPATH: src:src/perceptual-chain

@@ -27,7 +27,7 @@ jobs:
         pip install pydantic pytest
 
     - name: Run Pytest
+      run: |
+        python -m pytest
       env:
         PYTHONPATH: src
-      run: |
-        pytest
